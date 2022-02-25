@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnRegData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SlientInstallation="No" SlientUpgrade="No" Partnernmsp="SBOAddonExplorers" SchemaVersion="3.0" Type="" MultipleVersion="false" OnDemand="" OnPremise="" ExtName="SBOAddonExplorers" ExtVersion="1.9" Contdata="jzamarron@bits.com.mx" Partner="BITS" DBType="Both" ClientType="W">
+  <Validity>
+    <SBOCompatibility>
+      <Version From="930.100.00.00" To="930.100.00.00" />
+    </SBOCompatibility>
+  </Validity>
+  <Configuration>
+    <Repository />
+    <Deployment>
+      <Properties />
+    </Deployment>
+    <Assignment>
+      <Properties />
+    </Assignment>
+  </Configuration>
+  <Addons>
+    <Addon Name="" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
+      <x86 AddonExe="" AddonSig="">
+        <Installation>
+          <Files />
+        </Installation>
+        <Uninstallation>
+          <Files />
+        </Uninstallation>
+      </x86>
+      <x64 AddonExe="C:\Users\Z\Documents\Visual Studio 2015\Projects\SBOAddonExplorers\SBOAddonExplorers\bin\x64\Debug\SBOAddonExplorers.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="SBOAddonExplorers.b1s">
+              <Actions />
+            </File>
+            <File FileName="SBOAddonExplorers.exe">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions>
+                <Register64bit />
+              </Actions>
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="SBOAddonExplorers.b1s">
+              <Actions />
+            </File>
+            <File FileName="SBOAddonExplorers.exe">
+              <Actions />
+            </File>
+            <File FileName="SAPBusinessOneSDK.dll">
+              <Actions>
+                <Unregister64bit />
+              </Actions>
+            </File>
+          </Files>
+        </Uninstallation>
+      </x64>
+    </Addon>
+  </Addons>
+  <XApps>
+    <XApp Name="" Path="" FileName="" />
+  </XApps>
+  <UDQs>
+    <UDQ udqname="">
+      <Hana FileName="" />
+    </UDQ>
+  </UDQs>
+</AddOnRegData>
